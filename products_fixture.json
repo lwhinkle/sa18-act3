@@ -1,0 +1,29 @@
+[
+    {
+        "model": "myapp.product",
+        "pk": 1,
+        "fields": {
+            "name": "Laptop",
+            "price": 999.99,
+            "description": "A new, portable PC that has everything built into it."
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 2,
+        "fields": {
+            "name": "Keyboard",
+            "price": 59.99,
+            "description": "A high-quality keyboard with extra responsive keys."
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 3,
+        "fields": {
+            "name": "Mouse",
+            "price": 9.99,
+            "description": "It is cheaply made."
+        }
+    }
+]
