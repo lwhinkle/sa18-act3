@@ -21,6 +21,7 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.product_index),
+    path('home/', views.product_index, name='home'),
+    path('products/<int:id>/', views.product_show, name = 'product_show'),
     path("", RedirectView.as_view(url="index/", permanent=True))
 ]
